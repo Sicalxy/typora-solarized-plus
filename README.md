@@ -1,13 +1,19 @@
-# Typora-Solarized
+# Typora-Solarized-Plus
 
-This Solarized theme for Typora (markdown editor) uses the same color scheme originally created by Ethan Schoonover.
+## Description
 
-**Instalation**
+This a Solarized theme for Typora (a markdown editor) uses the same color scheme originally created by Ethan Schoonover.
 
-To install this theme, open the Preferences panel and then click on the button *Open Theme Folder*. Paste the .css files and the directory named "solarized" inside that folder. Restart typora, then select it from Theme menu.
+This theme is forked from [belenos / typora-solarized](https://github.com/belenos/typora-solarized), trying to fixed the ugly code block in solarized dark. And to add some new things in the theme.
 
-**Mononoki**
+## Instalation
 
-This theme uses Mononoki, an open source monospace font for programming and code review developed for high and low resolution displays. For more details and how to download the complete files, go to the official repository:
-https://github.com/madmalik/mononoki
+1. Open Theme Folder from Preference Panel → Appearance section.
+2. Copy css and related resources, like fonts or images, into the newly opened folder.
+3. Restart typora, then select it from Themes menu.
 
+## Changes
+
+ - [x] Fix the code block in solarized-dark mode. Port from [CodeMirror theme file](https://github.com/codemirror/CodeMirror/blob/master/theme/solarized.css)
+ - [ ] Fix the table contrast for better display
+ - [ ] Fix the selected part for better display
