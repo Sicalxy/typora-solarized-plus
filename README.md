@@ -15,5 +15,6 @@ This theme is forked from [belenos / typora-solarized](https://github.com/beleno
 ## Changes
 
  - [x] Fix the code block in solarized-dark mode. Port from [CodeMirror theme file](https://github.com/codemirror/CodeMirror/blob/master/theme/solarized.css)
+ - [x] Add solarized style to the megamenu
  - [ ] Fix the table contrast for better display
  - [ ] Fix the selected part for better display
